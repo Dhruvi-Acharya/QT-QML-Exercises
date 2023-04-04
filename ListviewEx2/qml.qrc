@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>NameModel.qml</file>
+        <file>NameDelegate.qml</file>
+        <file>SectionDelegate.qml</file>
+        <file>HighlightDelegate.qml</file>
+    </qresource>
+</RCC>
