@@ -1,0 +1,14 @@
+prefix=/ffmpeg_build_5.1_msvc_mfx_nvidia_dav1d_x64
+exec_prefix=${prefix}
+libdir=/ffmpeg_build_5.1_msvc_mfx_nvidia_dav1d_x64/lib
+includedir=/ffmpeg_build_5.1_msvc_mfx_nvidia_dav1d_x64/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 57.28.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: libmfx.lib advapi32.lib user32.lib bcrypt.lib
+Cflags: -I${includedir}

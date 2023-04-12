@@ -1,0 +1,98 @@
+<RCC>
+    <qresource prefix="/">
+        <file>MainWindow.qml</file>
+        <file>HeaderView.qml</file>
+        <file alias="images/add_tab.svg">../WisenetViewer/Assets/Icon/Header/add_tab.svg</file>
+        <file alias="images/layout_x_button.svg">../WisenetViewer/Assets/Icon/Header/layout_x_button.svg</file>
+        <file alias="images/layout_x_button_hover.svg">../WisenetViewer/Assets/Icon/Header/layout_x_button_hover.svg</file>
+        <file alias="images/maximize_button_default.svg">../WisenetViewer/Assets/Icon/Header/maximize_button_default.svg</file>
+        <file alias="images/maximize_button_hover.svg">../WisenetViewer/Assets/Icon/Header/maximize_button_hover.svg</file>
+        <file alias="images/maximize_button_press.svg">../WisenetViewer/Assets/Icon/Header/maximize_button_press.svg</file>
+        <file alias="images/minimize_button_default.svg">../WisenetViewer/Assets/Icon/Header/minimize_button_default.svg</file>
+        <file alias="images/minimize_button_hover.svg">../WisenetViewer/Assets/Icon/Header/minimize_button_hover.svg</file>
+        <file alias="images/minimize_button_press.svg">../WisenetViewer/Assets/Icon/Header/minimize_button_press.svg</file>
+        <file alias="images/normalize_button_default.svg">../WisenetViewer/Assets/Icon/Header/normalize_button_default.svg</file>
+        <file alias="images/normalize_button_hover.svg">../WisenetViewer/Assets/Icon/Header/normalize_button_hover.svg</file>
+        <file alias="images/normalize_button_press.svg">../WisenetViewer/Assets/Icon/Header/normalize_button_press.svg</file>
+        <file alias="images/wisenet_logo.svg">../WisenetViewer/Assets/Icon/Header/wisenet_logo.svg</file>
+        <file alias="images/x_button_default.svg">../WisenetViewer/Assets/Icon/Header/x_button_default.svg</file>
+        <file alias="images/x_button_hover.svg">../WisenetViewer/Assets/Icon/Header/x_button_hover.svg</file>
+        <file alias="images/x_button_press.svg">../WisenetViewer/Assets/Icon/Header/x_button_press.svg</file>
+        <file alias="images/separator.svg">../WisenetViewer/Assets/Icon/Header/separator.svg</file>
+        <file alias="images/PopupWindow/close_Default.svg">../WisenetStyle/Icon/PopupWindow/close_Default.svg</file>
+        <file alias="images/PopupWindow/colse_Hover.svg">../WisenetStyle/Icon/PopupWindow/close_Hover.svg</file>
+        <file alias="images/PopupWindow/close_Press.svg">../WisenetStyle/Icon/PopupWindow/close_Press.svg</file>
+        <file alias="images/PopupWindow/maximize_Default.svg">../WisenetStyle/Icon/PopupWindow/maximize_Default.svg</file>
+        <file alias="images/PopupWindow/maximize_Hover.svg">../WisenetStyle/Icon/PopupWindow/maximize_Hover.svg</file>
+        <file alias="images/PopupWindow/maximize_Press.svg">../WisenetStyle/Icon/PopupWindow/maximize_Press.svg</file>
+        <file alias="images/PopupWindow/minimize_Default.svg">../WisenetStyle/Icon/PopupWindow/minimize_Default.svg</file>
+        <file alias="images/PopupWindow/minimize_Hover.svg">../WisenetStyle/Icon/PopupWindow/minimize_Hover.svg</file>
+        <file alias="images/PopupWindow/minimize_Press.svg">../WisenetStyle/Icon/PopupWindow/minimize_Press.svg</file>
+        <file alias="images/PopupWindow/normalize_Default.svg">../WisenetStyle/Icon/PopupWindow/normalize_Default.svg</file>
+        <file alias="images/PopupWindow/normalize_Hover.svg">../WisenetStyle/Icon/PopupWindow/normalize_Hover.svg</file>
+        <file alias="images/PopupWindow/normalize_Press.svg">../WisenetStyle/Icon/PopupWindow/normalize_Press.svg</file>
+        <file>MonitoringView.qml</file>
+        <file alias="images/arrow_left_default.svg">../WisenetViewer/Assets/Icon/Monitoring/arrow_left_default.svg</file>
+        <file alias="images/arrow_left_hover.svg">../WisenetViewer/Assets/Icon/Monitoring/arrow_left_hover.svg</file>
+        <file alias="images/arrow_left_pressed.svg">../WisenetViewer/Assets/Icon/Monitoring/arrow_left_pressed.svg</file>
+        <file alias="images/arrow_right_default.svg">../WisenetViewer/Assets/Icon/Monitoring/arrow_right_default.svg</file>
+        <file alias="images/arrow_right_hover.svg">../WisenetViewer/Assets/Icon/Monitoring/arrow_right_hover.svg</file>
+        <file alias="images/arrow_right_pressed.svg">../WisenetViewer/Assets/Icon/Monitoring/arrow_right_pressed.svg</file>
+        <file>Resource/ShortcutBoxView.qml</file>
+        <file alias="images/ShortcutBox/mute_default.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/mute_default.svg</file>
+        <file alias="images/ShortcutBox/mute_dim.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/mute_dim.svg</file>
+        <file alias="images/ShortcutBox/mute_hover.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/mute_hover.svg</file>
+        <file alias="images/ShortcutBox/mute_press.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/mute_press.svg</file>
+        <file alias="images/ShortcutBox/channel_name_default.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/channel_name_default.svg</file>
+        <file alias="images/ShortcutBox/channel_name_hover.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/channel_name_hover.svg</file>
+        <file alias="images/ShortcutBox/channel_name_press.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/channel_name_press.svg</file>
+        <file alias="images/ShortcutBox/clear_screen_default.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/clear_screen_default.svg</file>
+        <file alias="images/ShortcutBox/clear_screen_hover.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/clear_screen_hover.svg</file>
+        <file alias="images/ShortcutBox/full_screen_default.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/full_screen_default.svg</file>
+        <file alias="images/ShortcutBox/full_screen_hover.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/full_screen_hover.svg</file>
+        <file alias="images/ShortcutBox/full_screen_press.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/full_screen_press.svg</file>
+        <file alias="images/ShortcutBox/video_info_default.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/video_info_default.svg</file>
+        <file alias="images/ShortcutBox/video_info_hover.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/video_info_hover.svg</file>
+        <file alias="images/ShortcutBox/video_info_press.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/video_info_press.svg</file>
+        <file alias="images/ShortcutBox/volume_default.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/volume_default.svg</file>
+        <file alias="images/ShortcutBox/volume_dim.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/volume_dim.svg</file>
+        <file alias="images/ShortcutBox/volume_hover.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/volume_hover.svg</file>
+        <file alias="images/ShortcutBox/volume_press.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/volume_press.svg</file>
+        <file alias="images/ShortcutBox/volume1_default.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/volume1_default.svg</file>
+        <file alias="images/ShortcutBox/volume1_dim.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/volume1_dim.svg</file>
+        <file alias="images/ShortcutBox/volume1_hover.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/volume1_hover.svg</file>
+        <file alias="images/ShortcutBox/volume1_select.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/volume1_select.svg</file>
+        <file alias="images/ShortcutBox/volume2_default.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/volume2_default.svg</file>
+        <file alias="images/ShortcutBox/volume2_dim.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/volume2_dim.svg</file>
+        <file alias="images/ShortcutBox/volume2_hover.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/volume2_hover.svg</file>
+        <file alias="images/ShortcutBox/volume2_select.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/volume2_select.svg</file>
+        <file>Resource/ResourceView.qml</file>
+        <file alias="images/Tree/resource-tree-branch-collapsed.svg">../WisenetStyle/Icon/Tree/resource-tree-branch-collapsed.svg</file>
+        <file alias="images/Tree/resource-tree-branch-expanded.svg">../WisenetStyle/Icon/Tree/resource-tree-branch-expanded.svg</file>
+        <file>Resource/ResourceItem.qml</file>
+        <file alias="images/Tree/tree_video_file_over.svg">../WisenetStyle/Icon/Tree/tree_video_file_over.svg</file>
+        <file alias="images/Tree/tree_video_file_normal.svg">../WisenetStyle/Icon/Tree/tree_video_file_normal.svg</file>
+        <file alias="images/Tree/tree_resourceroot_over.svg">../WisenetStyle/Icon/Tree/tree_resourceroot_over.svg</file>
+        <file alias="images/Tree/tree_resourceroot_normal.svg">../WisenetStyle/Icon/Tree/tree_resourceroot_normal.svg</file>
+        <file alias="images/Tree/tree_mediafile_root_over.svg">../WisenetStyle/Icon/Tree/tree_mediafile_root_over.svg</file>
+        <file alias="images/Tree/tree_mediafile_root_normal.svg">../WisenetStyle/Icon/Tree/tree_mediafile_root_normal.svg</file>
+        <file alias="images/Tree/tree_image_file_over.svg">../WisenetStyle/Icon/Tree/tree_image_file_over.svg</file>
+        <file alias="images/Tree/tree_image_file_normal.svg">../WisenetStyle/Icon/Tree/tree_image_file_normal.svg</file>
+        <file>Resource/VolumeControlView.qml</file>
+        <file>MonitoringViewAction.qml</file>
+        <file alias="WisenetLinguist.qml">../WisenetCommonLibrary/WisenetLanguage/WisenetLinguist.qml</file>
+        <file alias="font/NotoSans-Bold.ttf">../WisenetViewer/Assets/font/Noto_Sans/NotoSans-Bold.ttf</file>
+        <file alias="font/NotoSans-BoldItalic.ttf">../WisenetViewer/Assets/font/Noto_Sans/NotoSans-BoldItalic.ttf</file>
+        <file alias="font/NotoSans-Italic.ttf">../WisenetViewer/Assets/font/Noto_Sans/NotoSans-Italic.ttf</file>
+        <file alias="font/NotoSans-Regular.ttf">../WisenetViewer/Assets/font/Noto_Sans/NotoSans-Regular.ttf</file>
+        <file alias="font/NotoSansKR-Bold.otf">../WisenetViewer/Assets/font/Noto_Sans_KR/NotoSansKR-Bold.otf</file>
+        <file alias="font/NotoSansKR-Regular.otf">../WisenetViewer/Assets/font/Noto_Sans_KR/NotoSansKR-Regular.otf</file>
+        <file>Resource/ContextMenuView.qml</file>
+        <file alias="images/ShortcutBox/setup_default.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/setup_default.svg</file>
+        <file alias="images/ShortcutBox/setup_dim.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/setup_dim.svg</file>
+        <file alias="images/ShortcutBox/setup_hover.svg">../WisenetViewer/Assets/Icon/Monitoring/ShortcutBox/setup_hover.svg</file>
+        <file>Resource/SetupPopupView.qml</file>
+        <file alias="font/NotoSansJP-Regular.otf">../WisenetViewer/Assets/font/Noto_Sans_JP/NotoSansJP-Regular.otf</file>
+        <file alias="font/NotoSansJP-Bold.otf">../WisenetViewer/Assets/font/Noto_Sans_JP/NotoSansJP-Bold.otf</file>
+    </qresource>
+</RCC>

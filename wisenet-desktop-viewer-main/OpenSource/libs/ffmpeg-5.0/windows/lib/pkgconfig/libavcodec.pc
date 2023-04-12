@@ -1,0 +1,14 @@
+prefix=/ffmpeg_build_5.0_msvc_mfx_nvidia_dav1d_x64
+exec_prefix=${prefix}
+libdir=/ffmpeg_build_5.0_msvc_mfx_nvidia_dav1d_x64/lib
+includedir=/ffmpeg_build_5.0_msvc_mfx_nvidia_dav1d_x64/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 59.18.100
+Requires: 
+Requires.private: libswresample >= 4.3.100, libavutil >= 57.17.100
+Conflicts:
+Libs: -L${libdir}  -lavcodec 
+Libs.private: dav1d.lib mfplat.lib mfuuid.lib ole32.lib strmiids.lib ole32.lib user32.lib libmfx.lib advapi32.lib
+Cflags: -I${includedir}

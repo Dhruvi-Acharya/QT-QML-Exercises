@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>AddDeviceWindow.qml</file>
+        <file>AutoDiscoveryPage.qml</file>
+        <file>ManuallyAddDevicePage.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>camera.png</file>
+        <file>recorder.png</file>
+        <file>Enums.qml</file>
+    </qresource>
+</RCC>

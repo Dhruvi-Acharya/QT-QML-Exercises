@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>BppFa/fonts/fa-brands-400.ttf</file>
+        <file>BppFa/fonts/fa-regular-400.ttf</file>
+        <file>BppFa/fonts/fa-solid-900.ttf</file>
+        <file>BppFa/fonts/Roboto-Regular.ttf</file>
+        <file>BppFa/BppColorPicker.qml</file>
+        <file>BppFa/BppMetrics.qml</file>
+        <file>BppFa/BppStyleMaterial.qml</file>
+        <file>BppFa/BppStyleUniversal.qml</file>
+        <file>BppFa/BppPane.qml</file>
+        <file>BppFa/BppTextCp.qml</file>
+        <file>BppFa/BppMsgBox.qml</file>
+        <file>BppFa/BppToolButtonFa.qml</file>
+        <file>BppFa/BppButton.qml</file>
+        <file>BppFa/BppColorPickerDialog.qml</file>
+        <file>BppFa/qmldir</file>
+        <file>BppFa/BppGrid.qml</file>
+        <file>BppFa/BppGridText.qml</file>
+        <file>BppFa/BppCalendar.qml</file>
+        <file>BppFa/BppTextDate.qml</file>
+        <file>BppFa/BppGridFaIcon.qml</file>
+        <file>BppFa/BppImageArrayChooser.qml</file>
+        <file>BppFa/BppTreeView.qml</file>
+        <file>BppFa/assets/box-shadow.png</file>
+        <file>BppFa/BppShadowImageButton.qml</file>
+    </qresource>
+</RCC>

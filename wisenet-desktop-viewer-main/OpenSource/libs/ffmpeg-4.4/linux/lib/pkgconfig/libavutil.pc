@@ -1,0 +1,14 @@
+prefix=/home/hyunhokim/Desktop/ffmpeg_4.4_build
+exec_prefix=${prefix}
+libdir=/home/hyunhokim/Desktop/ffmpeg_4.4_build/lib
+includedir=/home/hyunhokim/Desktop/ffmpeg_4.4_build/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 56.70.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -pthread -lm
+Cflags: -I${includedir}

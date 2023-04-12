@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleDisplayName</key>
+    <string>Wisenet Viewer</string>
+    <key>CFBundleExecutable</key>
+    <string>WisenetViewer</string>
+    <key>CFBundleIconFile</key>
+    <string>WisenetViewer.icns</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.HanwhaVision.WisenetViewer</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Wisenet Viewer</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>4.2.0</string>
+    <key>CFBundleVersion</key>
+    <string>32659</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>10.8</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.business</string>
+    <key>LSUIElement</key>
+    <false/>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright (c) 2011-2021 Network Optix</string>
+
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLName</key>
+            <string>Wisenet Viewer Link</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+            <string>hanwhavision.com</string>
+            </array>
+        </dict>
+    </array>
+
+    <key>CFBundleDocumentTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>nov</string>
+            </array>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+        </dict>
+    </array>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Please grant access to the microphone to send sound to the camera.</string>
+</dict>
+</plist>

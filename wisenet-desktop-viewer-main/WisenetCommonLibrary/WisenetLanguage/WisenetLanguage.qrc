@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/WisenetLanguage">
+        <file>WisenetLinguist.qml</file>
+        <file>qmldir</file>
+        <file>lang_en.qm</file>
+        <file>lang_ko.qm</file>
+        <file>lang_cs.qm</file>
+        <file>lang_da.qm</file>
+        <file>lang_de.qm</file>
+        <file>lang_el.qm</file>
+        <file>lang_es.qm</file>
+        <file>lang_fr.qm</file>
+        <file>lang_hr.qm</file>
+        <file>lang_hu.qm</file>
+        <file>lang_it.qm</file>
+        <file>lang_ja.qm</file>
+        <file>lang_nb.qm</file>
+        <file>lang_nl.qm</file>
+        <file>lang_pl.qm</file>
+        <file>lang_pt.qm</file>
+        <file>lang_ro.qm</file>
+        <file>lang_ru.qm</file>
+        <file>lang_sr.qm</file>
+        <file>lang_sv-fi.qm</file>
+        <file>lang_tr.qm</file>
+        <file>lang_zh-cn.qm</file>
+        <file>lang_zh-tw.qm</file>
+    </qresource>
+</RCC>

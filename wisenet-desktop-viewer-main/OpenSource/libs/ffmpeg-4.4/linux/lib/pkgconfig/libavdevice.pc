@@ -1,0 +1,14 @@
+prefix=/home/hyunhokim/Desktop/ffmpeg_4.4_build
+exec_prefix=${prefix}
+libdir=/home/hyunhokim/Desktop/ffmpeg_4.4_build/lib
+includedir=/home/hyunhokim/Desktop/ffmpeg_4.4_build/include
+
+Name: libavdevice
+Description: FFmpeg device handling library
+Version: 58.13.100
+Requires: 
+Requires.private: libavfilter >= 7.110.100, libswscale >= 5.9.100, libavformat >= 58.76.100, libavcodec >= 58.134.100, libswresample >= 3.9.100, libavutil >= 56.70.100
+Conflicts:
+Libs: -L${libdir}  -lavdevice 
+Libs.private: -lm
+Cflags: -I${includedir}

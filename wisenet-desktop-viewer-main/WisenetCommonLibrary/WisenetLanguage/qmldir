@@ -1,0 +1,2 @@
+module WisenetLanguage
+singleton WisenetLinguist 1.0 WisenetLinguist.qml

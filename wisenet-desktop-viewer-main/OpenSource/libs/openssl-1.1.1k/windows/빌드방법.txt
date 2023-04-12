@@ -1,0 +1,27 @@
+<사전 개발 환경>
+- Visual Studio 2019 설치
+- Active Perl 설치
+- NASM 설치
+- OpenSSL 1.1.1K 다운로드(https://www.openssl.org/)
+
+<NASM 환경 변수 설정>
+시스템 속성 - 환경변수 - 사용자변수 - Path 선택 및 편집 - 새로 만들기 항목 선택 - NASM 설치 경로(예, C:\Users\junhong\AppData\Local\bin\NASM) 입력 및 확인
+
+<X64>
+	1. 관리자모드 실행 - x64 Native Tools Command Prompt for VS 2019
+	2. 경로 이동 - cd D:\01_WORK\wisenet_desktop_viewer\OpenSource\libs\openssl-1.1.1k\windows\openssl-1.1.1k
+	3. 빌드 환경 구성 - perl Configure VC-WIN64A —prefix=D:\result no-idea no-md2 no-mdc2 no-rc5 no-rc4
+
+<X86>
+	1. 관리자모드 실행 - x86 Native Tools Command Prompt for VS 2019
+	2. 경로 이동 - cd D:\01_WORK\wisenet_desktop_viewer\OpenSource\libs\openssl-1.1.1k\windows\openssl-1.1.1k
+	3. 빌드 환경 구성 - perl Configure VC-WIN32 —prefix=D:\result no-idea no-md2 no-mdc2 no-rc5 no-rc4
+
+<빌드>
+	4. (필수) nmake	
+	5. (선택) nmake test	
+	6. (필수) nmake install
+
+<결과>
+libssl-1_1-x64.dll
+libcypto-1_1-x64.dll 

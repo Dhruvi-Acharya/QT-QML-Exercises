@@ -1,0 +1,82 @@
+# This file is used to ignore files which are generated
+# ----------------------------------------------------------------------------
+
+*.autosave
+*.core
+*.moc
+*.o
+*.obj
+*.orig
+*.rej
+*.opt
+*_pch.h.cpp
+*_resource.rc
+core
+!core/
+.DS_Store
+.directory
+*.debug
+*.prl
+*.app
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+Thumbs.db
+*.res
+*.rc
+/.qmake.cache
+/.qmake.stash
+
+# qtcreator generated files
+*.pro.user*
+*.qmlproject.user*
+
+# xemacs temporary files
+*.flc
+
+# Vim temporary files
+.*.swp
+
+# Visual Studio generated files
+*.ib_pdb_index
+*.idb
+*.ilk
+*.pdb
+*.suo
+*vcproj.*.*.user
+*.ncb
+*.sdf
+*.opensdf
+*vcxproj.*
+
+# MinGW generated files
+*.Debug
+*.Release
+
+# Python byte code
+*.pyc
+
+# Custom ignore
+*.dmg
+*.tlog
+*.log
+*.VC.db
+*.VC.db-shm
+*.VC.db-wal
+*.VC.opendb
+*.designtime.idx
+*.log
+*.ipch
+*.cbt
+*.recipe
+*.props
+*moc_predefs.h
+*temp/Makefile
+*.exe
+target_wrapper.bat
+
+# ignore all dir names
+/**/build-*/
+/package-WisenetViewer*/
+/WisenetViewer/Qml/View/Popup/Layout/SequenceAddView.qml
+DevelopDefine.pri

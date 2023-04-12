@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>BppTable/assets/sort-down.svg</file>
+        <file>BppTable/assets/sort-up.svg</file>
+        <file>BppTable/assets/sort-up-and-down.svg</file>
+        <file>BppTable/CellButton.qml</file>
+        <file>BppTable/CellClicker.qml</file>
+        <file>BppTable/CellText.qml</file>
+        <file>BppTable/CompGrid.qml</file>
+        <file>BppTable/qmldir</file>
+        <file>BppTable/CellFa.qml</file>
+        <file>BppTable/assets/cog-solid.svg</file>
+        <file>BppTable/assets/copy-solid.svg</file>
+        <file>BppTable/assets/arrows-alt-h-solid.svg</file>
+        <file>BppTable/assets/icon-delete.svg</file>
+        <file>BppTable/GridStatusButton.qml</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,9 @@
+SDK Version : IMV1-SDK 2.4.3.1
+
+Content of the SDK:
+- Doc: directory containing the SDK programmer's guides
+- IMV1: API and library of the IMV1-SDK
+- Sample: sample projects for Mac OSX
+
+
+Prior to use the content of this SDK, you must have agreed to the ImmerVision License Agreement  for ISV. For information, contact: licensing@immervision.com

@@ -1,0 +1,13 @@
+dav1d 1.1.0
+ : https://code.videolan.org/videolan/dav1d/-/tree/1.1.0
+
+openh264 v2.3.1
+ : https://github.com/cisco/openh264/tree/v2.3.1
+
+MediaSDK-23.1.2
+ : https://github.com/Intel-Media-SDK/MediaSDK/tree/intel-mediasdk-23.1.2
+
+cuda sdk
+ : nv-codec-headers 11.1.5.2 (https://github.com/FFmpeg/nv-codec-headers/tree/n11.1.5.2)
+   CUDA toolkit 12.0.1
+   Video_Codec_SDK_12.0.16

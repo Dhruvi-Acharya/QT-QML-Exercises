@@ -1,0 +1,9 @@
+prefix=D:/Source/msys64/usr
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: dav1d.lib
+Description: AV1 decoding library
+Version: 1.1.0
+Libs: -L${libdir} -ldav1d
+Cflags: -I${includedir}

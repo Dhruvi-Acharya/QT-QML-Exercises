@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>LanguageConverter.qml</file>
+        <file>TextBox.qml</file>
+    </qresource>
+</RCC>

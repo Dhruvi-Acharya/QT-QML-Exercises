@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>CameraSetting.qml</file>
+        <file>CameraSettingGeneralPage.qml</file>
+        <file>CameraSettingFisheyePage.qml</file>
+        <file>CameraSettingProfilePage.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>CameraSettingProfile.qml</file>
+        <file>CameraSettingWebPage.qml</file>
+        <file>AddDeviceManual.qml</file>
+    </qresource>
+</RCC>

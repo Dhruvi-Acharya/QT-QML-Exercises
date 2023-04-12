@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Wisenet Viewer
+Comment=Wisenet Viewer Client
+Exec=/opt/HanwhaVision/WisenetViewer/WisenetViewer.sh
+Icon=wisenet-viewer.png
+Terminal=false
+Type=Application
+StartupNotify=true
+

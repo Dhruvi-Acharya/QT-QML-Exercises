@@ -1,0 +1,36 @@
+QWidget
+{
+    color: white;
+    background-color: rgb(35, 35, 35);
+}
+
+QPushButton
+{
+    background: rgb(35, 35, 35);
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    min-height: 28px;
+    max-height: 28px;
+    min-width: 120px;
+    max-width: 120px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+QPushButton:hover:pressed
+{
+    background: rgb(92, 92, 92);
+}
+
+QPushButton:hover:!pressed
+{
+    background: rgb(144, 144, 144);
+}
+
+QTextBrowser
+{
+    border-color: rgb(144, 144, 144);
+    border-style: solid;
+    border-width: 1px;
+}

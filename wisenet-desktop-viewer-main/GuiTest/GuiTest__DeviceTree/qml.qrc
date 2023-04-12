@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qtquickcontrols2.conf</file>
+        <file>main.qml</file>
+        <file>ExplorerView.qml</file>
+        <file>AlarmTreeView.qml</file>
+        <file>SiteTreeView.qml</file>
+        <file>MainTreeView.qml</file>
+        <file>FontImg.qml</file>
+        <file>ItemText.qml</file>
+        <file>ItemAddress.qml</file>
+        <file>TreeCellItemDelegate.qml</file>
+        <file>DeviceTreeView.qml</file>
+    </qresource>
+</RCC>

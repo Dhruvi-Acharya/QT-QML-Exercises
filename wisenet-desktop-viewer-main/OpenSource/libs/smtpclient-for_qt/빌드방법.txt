@@ -1,0 +1,14 @@
+#Windows
+	1. SmtpClient-for-Qt-master.zip 파일 압축 해제
+	2. 압축 해제 후, wisenet_desktop_viewer\OpenSource\libs\smtpclient-for_qt\SmtpClient-for-Qt-master 경로 이동
+	3. Qt Creator 실행 및 SMTPEmail.pro 파일 Open
+	4. ToolKit 연결 (MSVC2019 64Bit 선택)
+	5. 빌드 진행 (debug / release 용으로 한번씩 빌드를 진행한다.)
+	6. SMTPEmail.dll 및 SMTPEmail.lib 빌드 결과물 확인
+#OSX
+	1. SmtpClient-for-Qt-master.zip 파일 압축 해제
+	2. 압축 해제 후, wisenet_desktop_viewer\OpenSource\libs\smtpclient-for_qt\SmtpClient-for-Qt-master 경로 이동
+	3. Qt Creator 실행 및 SMTPEmail.pro 파일 Open
+	4. ToolKit 연결 (OSX 선택)
+	5. 빌드 진행 (debug / release 용으로 한번씩 빌드를 진행한다.)
+	6. libSMTPEmail.dylib 등 빌드 결과물 확인

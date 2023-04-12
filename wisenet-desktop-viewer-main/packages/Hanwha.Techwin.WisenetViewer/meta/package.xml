@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>Wisenet Viewer</DisplayName>
+    <Description>Wisenet Viewer root component</Description>
+    <Version>1.04.00</Version>
+    <ReleaseDate>2023-03-23</ReleaseDate>
+    <Licenses>
+        <License name="Wisenet Viewer License Agreement" file="license.txt" />
+    </Licenses>
+    <Default>true</Default>
+    <ForcedInstallation>true</ForcedInstallation>
+    <Script>installscript.qs</Script>
+    <UserInterfaces>
+        <UserInterface>abortInstallationPage.ui</UserInterface>
+        <UserInterface>supportedOsPage.ui</UserInterface>
+    </UserInterfaces>
+    <RequiresAdminRights>true</RequiresAdminRights>
+</Package>

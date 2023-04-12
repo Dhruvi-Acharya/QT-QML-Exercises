@@ -1,0 +1,9 @@
+prefix=D:/Source/msys64/usr
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: libmfx
+Description:  Media SDK library
+Version: 1.0.0
+Libs: -L${libdir} -lmfx
+Cflags: -I${includedir}

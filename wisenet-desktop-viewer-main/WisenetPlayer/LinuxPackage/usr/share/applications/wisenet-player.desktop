@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Wisenet Player
+Comment=Wisenet Player Client
+Exec=/opt/HanwhaTechwin/WisenetPlayer/WisenetPlayer.sh
+Icon=wisenet-player.png
+Terminal=false
+Type=Application
+StartupNotify=true
+

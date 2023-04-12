@@ -1,0 +1,453 @@
+/* side menu */
+.ir {
+  font-size: 0;
+  line-height: 0;
+  text-indent: -9999px;
+  vertical-align: top;
+}
+
+.menu_side {
+  overflow-y: auto;
+  position: fixed;
+  top: 54px;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 351px;
+  border-right: 1px solid rgba(229, 229, 229, 0.5);
+  background-color: #fff;
+  box-sizing: border-box;
+  transition: all 0.25s;
+}
+.menu_side .btn_opentype {
+  display: block;
+  position: relative;
+  width: 100%;
+  font-size: 0;
+}
+.menu_side .btn_opentype .txt_opentype {
+  display: block;
+  padding: 20px 77px 20px 32px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #444;
+  word-break: break-all;
+  text-align: left;
+}
+
+.menu_side .btn_opentype .ico_developers {
+  position: absolute;
+  top: 25px;
+  right: 27px;
+  width: 12px;
+  height: 12px;
+  background: url(../image/ico_developers10.png) 0 0 no-repeat;
+  background-size: 12px 12px;
+  transition: transform 0.25s;
+}
+.area_sidemenu {
+  padding-bottom: 20px;
+  border-top: 1px solid #e5e5e5;
+}
+.area_sidemenu:first-of-type {
+  border-top: none;
+}
+.area_sidemenu .tit_sidemenu {
+  padding: 31px 32px 8px;
+  font-size: 12px;
+  color: #aaa;
+}
+.list_defaulttype .link_sidemenu {
+  display: block;
+  -webkit-transition: background-color 0.25s;
+  transition: background-color 0.25s;
+}
+.list_defaulttype .link_sidemenu:hover {
+  background-color: #F1F1F1;
+    text-decoration: none !important;
+}
+.list_defaulttype .link_sidemenu .txt_sidemenu {
+  display: block;
+  font-size: 16px;
+  line-height: 22px;
+  color: #444;
+  vertical-align: middle;
+  word-break: break-all;
+    padding: 12px 32px;
+}
+.list_defaulttype .link_sidemenu:hover .txt_sidemenu {
+  color: #000;
+    text-decoration: none !important;
+}
+.list_defaulttype .on .link_sidemenu {
+  background-color: #F1F1F1;
+}
+.area_sidemenu ul .on .btn_opentype {
+  background-color: #F1F1F1;
+}
+.list_defaulttype .on .link_sidemenu .txt_sidemenu {
+  color: #111;
+  font-family: 'NotoSans Medium', 'Malgun Gothic', '맑은 고딕',
+    'Apple SD Gothic Neo', '돋움', dotum, sans-serif;
+}
+.list_opentype {
+  position: relative;
+}
+.list_opentype .list_defaulttype {
+  overflow: hidden;
+  height: 0;
+}
+.list_opentype.open_on {
+  padding-bottom: 0px;
+}
+.list_opentype.open_on .list_defaulttype {
+  overflow: visible;
+  height: 100%;
+}
+.list_opentype .link_sidemenu {
+
+}
+.list_opentype .link_sidemenu .txt_sidemenu {
+    display: block;
+  font-size: 14px;
+  line-height: 21px;
+  color: #707070;
+  letter-spacing: -0.2px;
+    padding: 12px 32px 12px 42px;
+}
+.list_onoff .btn_opentype .txt_mark {
+  position: absolute;
+  top: 10px;
+  right: 32px;
+  width: 45px;
+  height: 18px;
+  border: 1px solid rgba(45, 80, 255, 0.2);
+  font-size: 11px;
+  line-height: 18px;
+  color: rgba(45, 80, 255, 0.6);
+  font-family: 'NotoSans Medium', 'Malgun Gothic', '맑은 고딕',
+    'Apple SD Gothic Neo', '돋움', dotum, sans-serif;
+  opacity: 0.4;
+  box-sizing: border-box;
+}
+.list_onoff.open_on .btn_opentype .txt_mark {
+  border: 1px solid rgba(45, 80, 255, 0.2);
+  color: rgba(45, 80, 255, 0.6);
+  opacity: 1;
+}
+
+.list_arrow .link_sidemenu .txt_post {
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  left: 1px;
+  width: 45px;
+  height: 18px;
+  border: 1px solid rgba(120, 47, 254, 0.2);
+  font-size: 11px;
+  line-height: 18px;
+  color: rgba(120, 47, 254, 0.6);
+  font-family: 'NotoSans Medium', 'Malgun Gothic', '맑은 고딕',
+    'Apple SD Gothic Neo', '돋움', dotum, sans-serif;
+  text-align: center;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+.list_arrow .link_sidemenu .txt_get {
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  left: 1px;
+  width: 36px;
+  height: 18px;
+  border: 1px solid rgba(16, 170, 200, 0.2);
+  font-size: 11px;
+  line-height: 18px;
+  color: rgba(16, 170, 200, 0.6);
+  font-family: 'NotoSans Medium', 'Malgun Gothic', '맑은 고딕',
+    'Apple SD Gothic Neo', '돋움', dotum, sans-serif;
+  text-align: center;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+.list_arrow.open_on .btn_opentype .txt_opentype {
+  color: #F37321;
+  font-family: 'NotoSans bold', 'Malgun Gothic', '맑은 고딕',
+    'Apple SD Gothic Neo', '돋움', dotum, sans-serif;
+}
+.list_arrow.open_on .btn_opentype .ico_developers {
+  transform: rotate(-180deg);
+}
+.list_subtit .tit_sidemenu {
+  display: none;
+  padding: 12px 32px 6px 42px;
+}
+.list_subtit.open_on .tit_sidemenu {
+  display: block;
+}
+
+.btn_maketemp {
+  display: block;
+  width: 100%;
+  height: 60px;
+  padding: 0 30px;
+  font-size: 14px;
+  line-height: 60px;
+  color: #fff;
+  font-family: 'NotoSans Medium', 'Malgun Gothic', '맑은 고딕',
+    'Apple SD Gothic Neo', '돋움', dotum, sans-serif;
+  letter-spacing: -0.2px;
+  background-color: #03166c;
+  text-align: left;
+}
+.list_maketemp li {
+  border-bottom: 1px solid #e5e5e5;
+}
+.list_maketemp .link_maketemp {
+  display: block;
+  padding: 16px 30px;
+  background-color: #fff;
+  -webkit-transition: background-color 0.25s;
+  transition: background-color 0.25s;
+}
+.list_maketemp .link_maketemp:hover {
+  background-color: #ebedf4;
+}
+.list_maketemp .tit_keyname {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 24px;
+  color: #111;
+  font-family: 'NotoSans Medium', 'Malgun Gothic', '맑은 고딕',
+    'Apple SD Gothic Neo', '돋움', dotum, sans-serif;
+  vertical-align: top;
+}
+.list_maketemp .inbox_typeinfo {
+  display: inline-block;
+  padding: 2px 0 2px 7px;
+  vertical-align: top;
+}
+.list_maketemp .txt_template {
+  font-size: 14px;
+  line-height: 24px;
+  color: #111;
+}
+
+.side_document {
+  padding-top: 30px;
+}
+.list_detailidx {
+  position: relative;
+}
+.list_detailidx:before {
+  position: absolute;
+  top: 10px;
+  left: 44px;
+  bottom: 10px;
+  width: 1px;
+  background-color: #2d50ff;
+  opacity: 0.2;
+  content: '';
+}
+.list_detailidx .link_detailidx {
+  display: block;
+  padding: 8px 50px 8px 60px;
+  -webkit-transition: background-color 0.25s;
+  transition: background-color 0.25s;
+}
+.list_detailidx .link_detailidx:hover {
+  background-color: rgba(235, 237, 244, 0.5);
+}
+.list_detailidx .link_detailidx:hover .txt_detailidx {
+  color: #111;
+}
+.list_detailidx .txt_detailidx {
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+  color: #707070;
+  letter-spacing: -0.2px;
+  vertical-align: middle;
+}
+.list_detailidx .on .txt_detailidx {
+  color: #111;
+  font-family: 'NotoSans Medium', 'Malgun Gothic', '맑은 고딕',
+    'Apple SD Gothic Neo', '돋움', dotum, sans-serif;
+}
+.list_detailidx .on .txt_detailidx:before {
+  position: absolute;
+  top: 0;
+  left: -16px;
+  width: 1px;
+  height: 100%;
+  background-color: #2d50ff;
+  content: '';
+}
+
+.btn_menuopen,
+.btn_menuclose {
+  display: none;
+}
+
+/* pc responsive css */
+@media only screen and (max-width: 829px) {
+  .box_pathinfo .list_path {
+    padding-left: 74px;
+  }
+  .btn_menuopen {
+    display: block;
+  }
+  .menu_on .btn_menuopen {
+    display: none;
+  }
+  .menu_on .btn_menuclose {
+    display: block;
+  }
+  .btn_menuopen,
+  .btn_menuclose {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    width: 74px;
+    height: 54px;
+  }
+  .btn_menuopen .ico_developers {
+    display: inline-block;
+    width: 18px;
+    height: 14px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background: url(../image/ico_developers23.png) 0 0 no-repeat;
+    background-size: 18px 14px;
+  }
+  .btn_menuclose .ico_developers {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+    background: url(../image/ico_developers22.png) 0 0 no-repeat;
+    background-size: 16px 16px;
+  }
+
+  .menu_side {
+    left: -351px;
+    z-index: 15;
+  }
+  .menu_on .menu_side {
+    left: 0;
+  }
+  .menu_on .dimmed_g {
+    position: fixed;
+    top: 128px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 12;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .show_pc {
+    display: none !important;
+  }
+  .show_m {
+    display: block !important;
+  }
+
+  .btn_menuopen {
+    display: none !important;
+  }
+  .btn_menuclose {
+    display: none !important;
+  }
+
+  .menu_side {
+    overflow-y: visible;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 15;
+    bottom: auto !important;
+    width: 100%;
+    border-right: none;
+    transition: none;
+  }
+  .menu_side .btn_opentype .txt_opentype {
+    padding: 20px 37px 17px 20px;
+    line-height: 18px;
+  }
+  .menu_side > .btn_opentype .txt_opentype {
+    padding-left: 16px;
+    color: #111;
+    font-family: 'NotoSans Medium', 'Malgun Gothic', '맑은 고딕',
+      'Apple SD Gothic Neo', '돋움', dotum, sans-serif;
+  }
+  .menu_side .btn_opentype .ico_developers {
+    top: 17px;
+    right: 15px;
+    width: 22px;
+    height: 22px;
+    background: url(../image/ico_developers2.png) 0 0 no-repeat;
+    background-size: 22px 22px;
+  }
+  .menu_side.menuside_on .btn_menutoggle .ico_developers {
+    transform: rotate(-180deg);
+  }
+
+  .menu_side .inner_side {
+    overflow-y: auto;
+    position: absolute;
+    top: 54px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #f7f8f8;
+    box-sizing: border-box;
+    transition: max-height 0.25s;
+  }
+  .menu_side.menuside_on .inner_side {
+    height: 330px;
+    border-top: 1px solid #e5e5e5;
+  }
+  .area_sidemenu {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #fff;
+  }
+  .area_sidemenu:last-child {
+    padding-bottom: 0;
+  }
+  .area_sidemenu .tit_sidemenu {
+    padding: 22px 10px 5px 30px;
+    letter-spacing: -0.2px;
+  }
+  .area_sidemenu .list_opentype:first-of-type .btn_opentype:before {
+    content: none;
+  }
+
+  .list_opentype:not(:last-child):after,
+  .list_opentype.open_on .btn_opentype:after {
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    right: 0px;
+    height: 1px;
+    background-color: #e5e5e5;
+    content: '';
+  }
+
+  .list_opentype .link_sidemenu {
+
+    padding: 0px;
+    box-sizing: border-box;
+    line-height: 18px;
+  }
+
+  .list_opentype .link_sidemenu .txt_sidemenu {
+    line-height: 18px;
+  }
+}

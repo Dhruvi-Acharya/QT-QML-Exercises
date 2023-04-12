@@ -1,0 +1,14 @@
+prefix=/ffmpeg_build_5.1_msvc_mfx_nvidia_dav1d_x64
+exec_prefix=${prefix}
+libdir=/ffmpeg_build_5.1_msvc_mfx_nvidia_dav1d_x64/lib
+includedir=/ffmpeg_build_5.1_msvc_mfx_nvidia_dav1d_x64/include
+
+Name: libswscale
+Description: FFmpeg image rescaling library
+Version: 6.7.100
+Requires: 
+Requires.private: libavutil >= 57.28.100
+Conflicts:
+Libs: -L${libdir}  -lswscale 
+Libs.private: 
+Cflags: -I${includedir}

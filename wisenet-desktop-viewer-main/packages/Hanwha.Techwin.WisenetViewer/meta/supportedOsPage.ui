@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SupportedOsPage</class>
+ <widget class="QWidget" name="SupportedOsPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>350</width>
+    <height>297</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Supported Operating Systems</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">   
+   <item>
+    <widget class="QTextBrowser" name="SupportedOsDetails"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

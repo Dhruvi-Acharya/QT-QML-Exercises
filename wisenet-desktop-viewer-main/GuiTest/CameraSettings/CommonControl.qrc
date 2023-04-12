@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>controls/CustomButton.qml</file>
+        <file>controls/MyButton.qml</file>
+        <file>controls/MyCellItem.qml</file>
+        <file>controls/MyCellItemTitle.qml</file>
+        <file>controls/MyCheckBox.qml</file>
+        <file>controls/MyCombobox.qml</file>
+        <file>controls/MyCopyButton.qml</file>
+        <file>controls/MyEditBox.qml</file>
+        <file>controls/MyPaddingRect.qml</file>
+        <file>controls/MyPasswordEditBox.qml</file>
+        <file>controls/MyRowLayoutHeadText.qml</file>
+        <file>controls/MyRowLayoutLine.qml</file>
+        <file>controls/MySlider.qml</file>
+        <file>controls/MySwitch.qml</file>
+        <file>controls/MyText.qml</file>
+        <file>controls/images/checked.png</file>
+        <file>controls/images/hmfile_hash_f0f01292.png</file>
+        <file>controls/images/slider_handle.png</file>
+        <file>controls/images/unchecked.png</file>
+        <file>controls/images/wisenet.png</file>
+        <file>controls/MyIpEdit.qml</file>
+        <file>controls/images/passwordEye.png</file>
+        <file>controls/MyProgressBar.qml</file>
+        <file>controls/images/questionMark.png</file>
+    </qresource>
+</RCC>

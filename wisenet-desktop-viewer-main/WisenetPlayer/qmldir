@@ -1,0 +1,2 @@
+singleton WisenetLinguist 1.0 WisenetLinguist.qml
+singleton WisenetGui 1.0 WisenetGui.qml

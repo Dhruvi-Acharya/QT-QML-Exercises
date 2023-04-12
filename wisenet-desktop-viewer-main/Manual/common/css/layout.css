@@ -1,0 +1,112 @@
+/* layout */
+html,
+body {
+  min-height: 100%;
+}
+body.jp *{
+  word-break: break-all !important;
+}
+#docsRoot {
+  position: relative;
+  height: 100%;
+}
+#docsContent {
+  overflow: hidden;
+  position: relative;
+  min-height: 100%;
+  padding-left: 350px;
+  box-sizing: border-box;
+  background-color: #f7f8f8;
+}
+
+#mArticle {
+  position: relative;
+  z-index: 5;
+  width: 964px;
+  margin: 32px 32px 50px 32px;
+  background-color: #fff;
+}
+
+#__layout__ .menu_side {
+  top: 128px;
+  padding-bottom: 70px;
+}
+
+@media only screen and (max-width: 1024px) {
+  #docsContent {
+    padding-left: 0;
+  }
+
+  #mArticle {
+    margin: 0 auto 0;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #docsContent {
+    padding-left: 0;
+    margin-top: 55px;
+  }
+
+  #docsRoot {
+  }
+
+  #__layout__ .menu_side {
+    top: 54px;
+    padding-bottom: 0px;
+  }
+  #mArticle {
+    width: unset;
+    margin: 0;
+  }
+}
+
+/* 검색 { */
+.content__search-result {background-color:#F37321; color:#fff;}
+.search-item {font-size: 14px; word-break: keep-all;}
+.search-item__path {color:#999; font-size: 12px;}
+.search-item {border-bottom:1px solid #eee; padding: 15px; box-sizing: border-box; cursor: pointer;}
+.header__search__results {background-color: #fff; box-sizing: border-box; max-height:500px; overflow-y: auto; width: 500px; position: fixed; top:74px; right:0px; box-shadow: 10px 10px 30px rgba(0,0,0,0.1); z-index: 999;}
+.header__search-btn {
+    position: absolute;
+    top: 30px;
+    right: -0px;
+    cursor: pointer;
+    z-index: 98;
+    color:#F37321;
+    font-size: 12px;
+}
+.search-item__preview {font-size: 14px; padding-top: 10px;}
+.search-item__preview dl {padding: 15px; font-size: 14px;}
+.search-item:hover .search-item__path {color:#000; text-decoration: underline;}
+.search-item:hover {background-color: #f9f9f9;}
+
+
+    #loadings {position:fixed;width:100%;height:100%;top:0;left:0;z-index:999999; background-color: #f7f8f8;}
+    #loadings_api {
+      position: absolute;
+      width: 120px;
+      height: 40px;
+      background: url(../image/logo_b.png) no-repeat;
+        background-size: 100%;
+      margin: auto;
+      top:0;
+      left:0;
+      bottom:0;
+      right: 0;
+    }
+
+
+@media all and (max-width:1024px) {
+    .header__search__results {max-height:300px; width: 100%; top:54px;}
+    
+    .header__search-btn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+        z-index: 98;
+        color:#F37321;
+        font-size: 12px;
+    }
+}

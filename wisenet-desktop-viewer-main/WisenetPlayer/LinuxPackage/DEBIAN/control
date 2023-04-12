@@ -1,0 +1,13 @@
+Package: wisenet-player
+Source: wisenet-player
+Version: 1.01.00
+Installed-Size: 200000
+Architecture: amd64
+Maintainer: HanwhaTechwin <>
+Conflicts: wisenet-player (<< 1.01.00)
+Replaces: wisenet-player (<< 1.01.00)
+Provides: wisenet-player
+Section: non-free
+Priority: optional
+Homepage: https://www.hanwhasecurity.com/
+Description: Wisenet Player

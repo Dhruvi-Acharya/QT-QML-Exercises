@@ -1,0 +1,13 @@
+Package: wisenet-viewer
+Source: wisenet-viewer
+Version: 1.04.00
+Installed-Size: 410000
+Architecture: amd64
+Maintainer: HanwhaVision <>
+Conflicts: wisenet-viewer (<< 1.04.00)
+Replaces: wisenet-viewer (<< 1.04.00)
+Provides: wisenet-viewer
+Section: non-free
+Priority: optional
+Homepage: https://www.HanwhaVision.com/
+Description: Wisenet Viewer

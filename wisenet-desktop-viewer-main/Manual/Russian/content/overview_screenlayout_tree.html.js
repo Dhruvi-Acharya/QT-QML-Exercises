@@ -1,0 +1,5 @@
+var overview_screenlayout_tree = '<div class="item_div_cont" data-content="p030404">'+
+'    <h3><a class="heading-offset-anchor" id="p030404"></a>Дерево раскладок</h3>'+
+'    <p>В дереве раскладок можно настроить и зарегистрировать раскладку, а также изменить или удалить ранее зарегистрированную раскладку. <br>Подробнее о добавлении раскладок и управлении ими см. в разделе <label class="viewbtns" data-id="layout" onclick="location.href=\'#p05\';">Использование раскладок</label>.<br> Можно также сохранить зарегистрированную раскладку как последовательность. Подробнее о настройках последовательностей см. в разделе  <label class="viewbtns" data-id="layout_sequence_set" onclick="location.href=\'#p050501\';">Настройка последовательностей</label>. </p>'+
+'    <span class="img_preveal_p"><img src="./image/sub/13.png" /></span>'+
+'</div>';

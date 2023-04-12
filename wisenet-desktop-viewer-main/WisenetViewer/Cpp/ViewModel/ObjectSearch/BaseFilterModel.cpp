@@ -1,0 +1,165 @@
+#include "BaseFilterModel.h"
+
+BaseFilterModel::BaseFilterModel(QObject *parent)
+    : QObject{parent}
+{
+
+}
+
+// 모든 오브젝트 검색 조건 버튼의 visible, checked를 false처리
+void BaseFilterModel::clearAllObjectOptionButtons()
+{
+    qDebug() << "clearAllObjectOptionButtons() begin";
+
+    // set visible value
+    setPersonGenderMaleButtonVisible(false);
+    setPersonGenderFemaleButtonVisible(false);
+    setPersonClothingTopBlackButtonVisible(false);
+    setPersonClothingTopGrayButtonVisible(false);
+    setPersonClothingTopWhiteButtonVisible(false);
+    setPersonClothingTopRedButtonVisible(false);
+    setPersonClothingTopOrangeButtonVisible(false);
+    setPersonClothingTopYellowButtonVisible(false);
+    setPersonClothingTopGreenButtonVisible(false);
+    setPersonClothingTopBlueButtonVisible(false);
+    setPersonClothingTopPurpleButtonVisible(false);
+    setPersonClothingBottomBlackButtonVisible(false);
+    setPersonClothingBottomGrayButtonVisible(false);
+    setPersonClothingBottomWhiteButtonVisible(false);
+    setPersonClothingBottomRedButtonVisible(false);
+    setPersonClothingBottomOrangeButtonVisible(false);
+    setPersonClothingBottomYellowButtonVisible(false);
+    setPersonClothingBottomGreenButtonVisible(false);
+    setPersonClothingBottomBlueButtonVisible(false);
+    setPersonClothingBottomPurpleButtonVisible(false);
+    setPersonBagWearButtonVisible(false);
+    setPersonBagNoWearButtonVisible(false);
+    setFaceGenderMaleButtonVisible(false);
+    setFaceGenderFemaleButtonVisible(false);
+    setFaceAgeTypeYoungButtonVisible(false);
+    setFaceAgeTypeAdultButtonVisible(false);
+    setFaceAgeTypeMiddleButtonVisible(false);
+    setFaceAgeTypeSeniorButtonVisible(false);
+    setFaceHatWearButtonVisible(false);
+    setFaceHatNoWearButtonVisible(false);
+    setFaceOpticalsWearButtonVisible(false);
+    setFaceOpticalsNoWearButtonVisible(false);
+    setFaceMaskWearButtonVisible(false);
+    setFaceMaskNoWearButtonVisible(false);
+    setVehicleTypeCarButtonVisible(false);
+    setVehicleTypeBusButtonVisible(false);
+    setVehicleTypeTruckButtonVisible(false);
+    setVehicleTypeMotorcycleButtonVisible(false);
+    setVehicleTypeBicycleButtonVisible(false);
+    setVehicleColorBlackButtonVisible(false);
+    setVehicleColorGrayButtonVisible(false);
+    setVehicleColorWhiteButtonVisible(false);
+    setVehicleColorRedButtonVisible(false);
+    setVehicleColorOrangeButtonVisible(false);
+    setVehicleColorYellowButtonVisible(false);
+    setVehicleColorGreenButtonVisible(false);
+    setVehicleColorBlueButtonVisible(false);
+    setVehicleColorPurpleButtonVisible(false);
+
+    // set checked value
+    setPersonGenderMaleButtonChecked(false);
+    setPersonGenderFemaleButtonChecked(false);
+    setPersonClothingTopBlackButtonChecked(false);
+    setPersonClothingTopGrayButtonChecked(false);
+    setPersonClothingTopWhiteButtonChecked(false);
+    setPersonClothingTopRedButtonChecked(false);
+    setPersonClothingTopOrangeButtonChecked(false);
+    setPersonClothingTopYellowButtonChecked(false);
+    setPersonClothingTopGreenButtonChecked(false);
+    setPersonClothingTopBlueButtonChecked(false);
+    setPersonClothingTopPurpleButtonChecked(false);
+    setPersonClothingBottomBlackButtonChecked(false);
+    setPersonClothingBottomGrayButtonChecked(false);
+    setPersonClothingBottomWhiteButtonChecked(false);
+    setPersonClothingBottomRedButtonChecked(false);
+    setPersonClothingBottomOrangeButtonChecked(false);
+    setPersonClothingBottomYellowButtonChecked(false);
+    setPersonClothingBottomGreenButtonChecked(false);
+    setPersonClothingBottomBlueButtonChecked(false);
+    setPersonClothingBottomPurpleButtonChecked(false);
+    setPersonBagWearButtonChecked(false);
+    setPersonBagNoWearButtonChecked(false);
+    setFaceGenderMaleButtonChecked(false);
+    setFaceGenderFemaleButtonChecked(false);
+    setFaceAgeTypeYoungButtonChecked(false);
+    setFaceAgeTypeAdultButtonChecked(false);
+    setFaceAgeTypeMiddleButtonChecked(false);
+    setFaceAgeTypeSeniorButtonChecked(false);
+    setFaceHatWearButtonChecked(false);
+    setFaceHatNoWearButtonChecked(false);
+    setFaceOpticalsWearButtonChecked(false);
+    setFaceOpticalsNoWearButtonChecked(false);
+    setFaceMaskWearButtonChecked(false);
+    setFaceMaskNoWearButtonChecked(false);
+    setVehicleTypeCarButtonChecked(false);
+    setVehicleTypeBusButtonChecked(false);
+    setVehicleTypeTruckButtonChecked(false);
+    setVehicleTypeMotorcycleButtonChecked(false);
+    setVehicleTypeBicycleButtonChecked(false);
+    setVehicleColorBlackButtonChecked(false);
+    setVehicleColorGrayButtonChecked(false);
+    setVehicleColorWhiteButtonChecked(false);
+    setVehicleColorRedButtonChecked(false);
+    setVehicleColorOrangeButtonChecked(false);
+    setVehicleColorYellowButtonChecked(false);
+    setVehicleColorGreenButtonChecked(false);
+    setVehicleColorBlueButtonChecked(false);
+    setVehicleColorPurpleButtonChecked(false);
+}
+
+void BaseFilterModel::clearChecked()
+{
+    setPersonGenderMaleButtonChecked(false);
+    setPersonGenderFemaleButtonChecked(false);
+    setPersonClothingTopBlackButtonChecked(false);
+    setPersonClothingTopGrayButtonChecked(false);
+    setPersonClothingTopWhiteButtonChecked(false);
+    setPersonClothingTopRedButtonChecked(false);
+    setPersonClothingTopOrangeButtonChecked(false);
+    setPersonClothingTopYellowButtonChecked(false);
+    setPersonClothingTopGreenButtonChecked(false);
+    setPersonClothingTopBlueButtonChecked(false);
+    setPersonClothingTopPurpleButtonChecked(false);
+    setPersonClothingBottomBlackButtonChecked(false);
+    setPersonClothingBottomGrayButtonChecked(false);
+    setPersonClothingBottomWhiteButtonChecked(false);
+    setPersonClothingBottomRedButtonChecked(false);
+    setPersonClothingBottomOrangeButtonChecked(false);
+    setPersonClothingBottomYellowButtonChecked(false);
+    setPersonClothingBottomGreenButtonChecked(false);
+    setPersonClothingBottomBlueButtonChecked(false);
+    setPersonClothingBottomPurpleButtonChecked(false);
+    setPersonBagWearButtonChecked(false);
+    setPersonBagNoWearButtonChecked(false);
+    setFaceGenderMaleButtonChecked(false);
+    setFaceGenderFemaleButtonChecked(false);
+    setFaceAgeTypeYoungButtonChecked(false);
+    setFaceAgeTypeAdultButtonChecked(false);
+    setFaceAgeTypeMiddleButtonChecked(false);
+    setFaceAgeTypeSeniorButtonChecked(false);
+    setFaceHatWearButtonChecked(false);
+    setFaceHatNoWearButtonChecked(false);
+    setFaceOpticalsWearButtonChecked(false);
+    setFaceOpticalsNoWearButtonChecked(false);
+    setFaceMaskWearButtonChecked(false);
+    setFaceMaskNoWearButtonChecked(false);
+    setVehicleTypeCarButtonChecked(false);
+    setVehicleTypeBusButtonChecked(false);
+    setVehicleTypeTruckButtonChecked(false);
+    setVehicleTypeMotorcycleButtonChecked(false);
+    setVehicleTypeBicycleButtonChecked(false);
+    setVehicleColorBlackButtonChecked(false);
+    setVehicleColorGrayButtonChecked(false);
+    setVehicleColorWhiteButtonChecked(false);
+    setVehicleColorRedButtonChecked(false);
+    setVehicleColorOrangeButtonChecked(false);
+    setVehicleColorYellowButtonChecked(false);
+    setVehicleColorGreenButtonChecked(false);
+    setVehicleColorBlueButtonChecked(false);
+    setVehicleColorPurpleButtonChecked(false);
+}

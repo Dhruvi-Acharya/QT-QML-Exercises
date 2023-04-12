@@ -1,0 +1,5 @@
+module WisenetMediaFramework
+singleton WisenetLinguist 1.0 WisenetLinguist.qml
+MediaControllerView 1.0 MediaController/MediaControllerView.qml
+ExportVideoProgressView 1.0 MediaController/ExportVideoProgressView.qml
+MaskingView 1.0 Masking/MaskingView.qml

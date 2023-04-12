@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.4.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="4.162 3.662 22.677 22.677" enable-background="new 4.162 3.662 22.677 22.677" xml:space="preserve">
+<path fill="#F37321" d="M15.445,5.079c5.479,0,9.921,4.442,9.921,9.921c0,5.48-4.441,9.921-9.921,9.921S5.524,20.48,5.524,15
+	C5.524,9.521,9.966,5.079,15.445,5.079z"/>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="8.831" y="10.701" width="13.228" height="9.094"/>
+	</defs>
+	<clipPath id="SVGID_00000111159559744722013580000015258600722668560053_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_00000111159559744722013580000015258600722668560053_)">
+		<path fill="none" stroke="#FFFFFF" stroke-width="0.6614" stroke-miterlimit="10" d="M13.595,17.977h3.28"/>
+		<path fill="none" stroke="#FFFFFF" stroke-width="0.6614" stroke-linecap="round" stroke-linejoin="round" d="M12.231,19.256
+			c0.753,0,1.364-0.595,1.364-1.33c0-0.733-0.611-1.329-1.364-1.329c-0.754,0-1.364,0.596-1.364,1.329
+			C10.867,18.661,11.477,19.256,12.231,19.256z"/>
+		<path fill="none" stroke="#FFFFFF" stroke-width="0.6614" stroke-linecap="round" stroke-linejoin="round" d="M18.256,19.256
+			c0.754,0,1.364-0.595,1.364-1.33c0-0.733-0.61-1.329-1.364-1.329c-0.753,0-1.363,0.596-1.363,1.329
+			C16.893,18.661,17.503,19.256,18.256,19.256z"/>
+		<path fill="none" stroke="#FFFFFF" stroke-width="0.6614" stroke-miterlimit="10" d="M19.718,17.976h1.393
+			c0.164,0,0.32-0.078,0.436-0.206c0.116-0.128,0.182-0.302,0.182-0.483v-1.983c0-0.089-0.023-0.148-0.056-0.231
+			c-0.03-0.083-0.07-0.14-0.128-0.203c-0.059-0.063-0.128-0.112-0.202-0.146c-0.076-0.034-0.157-0.05-0.238-0.048h-2.007
+			l-2.092-2.593c-0.155-0.219-0.356-0.394-0.583-0.513c-0.227-0.119-0.477-0.177-0.729-0.17H11.91c-0.503,0-0.676,0.46-0.809,0.683
+			l-1.104,2.184c-0.121,0.226-0.182,0.485-0.174,0.747v2.33c0,0.181,0.066,0.354,0.181,0.483c0.116,0.128,0.273,0.157,0.437,0.157
+			h0.509"/>
+		<path fill="none" stroke="#FFFFFF" stroke-width="0.6614" stroke-miterlimit="10" d="M9.917,14.669H20.6"/>
+		<path fill="none" stroke="#FFFFFF" stroke-width="0.6614" stroke-miterlimit="10" d="M13.195,11.414v3.08"/>
+	</g>
+</g>
+</svg>
